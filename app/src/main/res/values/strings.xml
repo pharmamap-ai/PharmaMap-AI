@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">فارما ماب</string>
+
+    <!-- Auth -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="register_title">إنشاء حساب جديد</string>
+    <string name="name_hint">الاسم الكامل</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="login">دخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="create_account">ليس لديك حساب؟ أنشئ واحداً</string>
+    <string name="have_account_login">لديك حساب؟ سجّل الدخول</string>
+    <string name="fill_all_fields">يرجى ملء جميع الحقول المطلوبة</string>
+    <string name="password_min_length">كلمة المرور 8 أحرف على الأقل</string>
+    <string name="auth_success">تم بنجاح!</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="logout_success">تم تسجيل الخروج</string>
+    <string name="checking_session">جاري التحقق…</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">لوحة التحكم</string>
+    <string name="welcome_user">مرحباً، %1$s</string>
+    <string name="stat_total_medicines">إجمالي الأدوية</string>
+    <string name="stat_low_stock">مخزون منخفض</string>
+    <string name="stat_expiring_soon">ينتهي قريباً</string>
+    <string name="stat_total_value">قيمة المخزون</string>
+    <string name="currency_format">%1$s ₪</string>
+    <string name="quick_search_hint">بحث سريع عن دواء، رف، كود…</string>
+    <string name="btn_add_medicine">إضافة دواء جديد</string>
+    <string name="btn_browse_medicines">تصفح الأدوية</string>
+    <string name="btn_profile">الملف الشخصي</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="stat_expired">منتهي الصلاحية</string>
+
+    <!-- Add/Edit Medicine -->
+    <string name="add_medicine_title">إضافة دواء</string>
+    <string name="edit_medicine_title">تعديل الدواء</string>
+    <string name="medicine_name">اسم الدواء *</string>
+    <string name="medicine_code">الكود / الباركود</string>
+    <string name="medicine_price">السعر *</string>
+    <string name="medicine_quantity">الكمية *</string>
+    <string name="medicine_shelf">الرف (مثال: أ-1)</string>
+    <string name="medicine_category">التصنيف</string>
+    <string name="medicine_expiry">تاريخ انتهاء الصلاحية</string>
+    <string name="medicine_manufacturer">الشركة المصنعة</string>
+    <string name="medicine_min_stock">الحد الأدنى للمخزون</string>
+    <string name="medicine_description">الوصف</string>
+    <string name="medicine_notes">ملاحظات</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="saved_successfully">تم الحفظ بنجاح</string>
+    <string name="deleted_successfully">تم الحذف بنجاح</string>
+    <string name="delete_confirm_title">حذف الدواء</string>
+    <string name="delete_confirm_message">هل أنت متأكد من حذف هذا الدواء؟</string>
+    <string name="pick_date">اختر التاريخ</string>
+    <string name="name_required">اسم الدواء مطلوب</string>
+
+    <!-- Medicine List -->
+    <string name="medicines_title">الأدوية</string>
+    <string name="search_hint">ابحث بالاسم أو الكود أو الرف…</string>
+    <string name="no_medicines">لا توجد أدوية بعد</string>
+    <string name="no_results">لا توجد نتائج</string>
+    <string name="shelf_label">رف: %1$s</string>
+    <string name="qty_label">الكمية: %1$d</string>
+    <string name="price_label">%1$s ₪</string>
+    <string name="expiry_label">الصلاحية: %1$s</string>
+    <string name="expired_label">منتهي!</string>
+    <string name="expiring_soon_label">ينتهي قريباً</string>
+    <string name="low_stock_label">مخزون منخفض!</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_low_stock">مخزون منخفض</string>
+    <string name="filter_expiring">ينتهي قريباً</string>
+    <string name="filter_expired">منتهي</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_medicines">الأدوية</string>
+    <string name="nav_profile">حسابي</string>
+    <string name="quick_actions">إجراءات سريعة</string>
+    <string name="account_info">معلومات الحساب</string>
+
+    <!-- Profile -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="profile_logged_in_as">مسجل الدخول كـ</string>
+    <string name="no_name">بدون اسم</string>
+    <string name="user_id_label">المعرّف: %1$s</string>
+    <string name="email_verified">البريد مُفعّل ✓</string>
+    <string name="email_not_verified">البريد غير مُفعّل</string>
+    <string name="logout_confirm_title">تسجيل الخروج</string>
+    <string name="logout_confirm_message">هل تريد تسجيل الخروج؟</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="edit_profile_title">تعديل الملف الشخصي</string>
+    <string name="not_set">لم يتم التحديد</string>
+
+    <!-- Edit Profile -->
+    <string name="personal_info">المعلومات الشخصية</string>
+    <string name="phone_hint">رقم الهاتف</string>
+    <string name="pharmacy_info">معلومات الصيدلية</string>
+    <string name="pharmacy_name_hint">اسم الصيدلية</string>
+    <string name="pharmacy_address_hint">عنوان الصيدلية</string>
+    <string name="pharmacy_phone_hint">هاتف الصيدلية</string>
+    <string name="pharmacy_license_hint">رقم الترخيص</string>
+    <string name="save_profile">حفظ التغييرات</string>
+    <string name="profile_saved">تم حفظ الملف الشخصي بنجاح</string>
+    <string name="name_required_profile">الاسم مطلوب</string>
+    <string name="profile_photo">صورة الملف الشخصي</string>
+    <string name="change_photo">تغيير الصورة</string>
+    <string name="photo_error">حدث خطأ في تحميل الصورة</string>
+    <string name="choose_image_source">اختر مصدر الصورة</string>
+    <string name="from_camera">التقاط من الكاميرا</string>
+    <string name="from_gallery">اختيار من المعرض</string>
+    <string name="camera_permission_denied">يجب السماح بالوصول للكاميرا</string>
+    <string name="add_medicine_image">اضغط لإضافة صورة الدواء</string>
+
+    <!-- Categories -->
+    <string-array name="medicine_categories">
+        <item>مسكنات</item>
+        <item>مضادات حيوية</item>
+        <item>فيتامينات ومكملات</item>
+        <item>أدوية القلب</item>
+        <item>أدوية الضغط</item>
+        <item>أدوية السكري</item>
+        <item>أدوية الحساسية</item>
+        <item>أدوية الجهاز الهضمي</item>
+        <item>أدوية الجلد</item>
+        <item>أدوية العيون</item>
+        <item>أدوية الأطفال</item>
+        <item>مستلزمات طبية</item>
+        <item>أخرى</item>
+    </string-array>
+</resources>

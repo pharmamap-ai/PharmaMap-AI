@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="pharmacy_green">#388E3C</color>
+    <color name="pharmacy_green_light">#81C784</color>
+    <color name="pharmacy_green_dark">#1B5E20</color>
+    <color name="pharmacy_bg">#F0F2F5</color>
+
+    <color name="status_ok">#4CAF50</color>
+    <color name="status_warning">#E65100</color>
+    <color name="status_danger">#C62828</color>
+
+    <color name="card_total_bg">#E3F2FD</color>
+    <color name="card_total_text">#1565C0</color>
+    <color name="card_low_stock">#FFF3E0</color>
+    <color name="card_low_stock_text">#E65100</color>
+    <color name="card_expiring">#FFF8E1</color>
+    <color name="card_expiring_text">#F57F17</color>
+    <color name="card_value_bg">#E8F5E9</color>
+    <color name="card_value_text">#2E7D32</color>
+    <color name="card_expired">#FFEBEE</color>
+    <color name="card_normal">#FFFFFF</color>
+</resources>
